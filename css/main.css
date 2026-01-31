@@ -1,0 +1,26 @@
+:root{
+    --color-primary: #2563EB;
+    --color-dark: #0f172A;
+    --color-light: #F8FAFC;
+    --color-gray: #64748B;
+
+    --max-widht: 1200px;
+    --radius: 0.75rem
+}
+
+*::before,
+*::after,
+
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Playwrite NZ Basic', sans-serif;
+    color: var(--color-dark);
+    line-height: 1.6;
+    background-color: #FFF;
+}
