@@ -4,9 +4,11 @@
     --color-light: #F8FAFC;
     --color-gray: #64748B;
 
+
     --max-width: 1200px;
     --radius: 0.75rem;
 }
+
 
 *::before,
 *::after,
@@ -16,6 +18,7 @@
     padding: 0px;
 }
 
+
 body{
     font-family: 'Playwrite NZ Basic', sans-serif;
     color: var(--color-dark);
@@ -23,11 +26,13 @@ body{
     background-color: #FFF;
 }
 
+
 img{
     max-width: var(--max-width);
     display: block;
     border-radius: var(--radius);
 }
+
 
 .container{
     max-width: var(--max-width);
@@ -56,6 +61,7 @@ img{
     background-color: var(--color-primary);
     color: #FFF;
 }
+
 
 .btn-primary:hover{
     background-color: #1D4ED8;
@@ -159,4 +165,91 @@ img{
 .footer a{
     color: #cbd5e1;
     text-decoration: none;
-} 
+}
+
+.section-center{
+    text-align: center;
+    margin: 1rem 0;
+}
+.section-center h2 {
+    text-align: center;
+    background: linear-gradient(135deg, #2563EB, #1E40AF);
+    color: #FFF;
+    margin: 1rem 0;
+    border-radius: var(--radius);
+}
+
+.list-container {
+    display: inline-block;
+    text-align: left;
+}
+
+.iframe-container {
+    width: 100%;
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: 0 10px 25px rgb(41, 106, 247);
+    margin-top: 1rem;
+}
+
+.iframe-container iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+    display: block;
+}
+
+.img-responsive {
+    width: 100%;
+    max-width: 800px;
+    border-radius: var(--radius);
+    box-shadow: 0 10px 25px rgb(132, 132, 130);
+    display: block;
+    margin: 0 auto;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    margin-top: 1rem;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: var(--radius);
+    overflow: hidden;
+}
+
+.custom-table th, .custom-table td {
+    padding: 1.25rem;
+    border: 1px solid #cbd5f5;
+    text-align: left;
+}
+
+.custom-table th {
+    background-color: var(--color-primary);
+    color: #fff;
+    font-weight: 600;
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: var(--color-light);
+}
+
+.full-width-btn {
+    width: 100%;
+    margin-top: 1rem;
+}
+.section-header {
+    background: linear-gradient(135deg, #2563EB, #1E40AF);
+    color: #FFF;
+    padding: 6rem 0;
+     border-radius: var(--radius);
+
+}
+.ejemplo-texto{ 
+    text-align: center;
+    margin: 1rem 0;
+}
+

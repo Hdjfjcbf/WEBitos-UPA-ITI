@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas - UPA Miguel Angel Madrigal Gonzalez ITI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+NZ+Basic:wght@100..400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <style>
+        .table-container { overflow-x: auto; margin-top: 2rem; }
+        table { width: 100%; border-collapse: collapse; background: #fff; font-family: inherit; }
+        th, td { padding: 1.25rem; border: 1px solid #cbd5f5; text-align: left; }
+        th { background-color: var(--color-primary); color: #fff; font-weight: 600; }
+        tr:nth-child(even) { background-color: var(--color-light); }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="index.html" class="logo">UPA</a>
+            <button class="nav-toggle" aria-label="Abrir menú;">
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="index.html#inicio">Inicio</a></li>
+                <li><a href="index.html#servicios">Servicios</a></li>
+                <li><a href="index.html#nosotros">Nosotros</a></li>
+                <li><a href="elementos.html">Elementos</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="index.html#contacto" class="btn btn-contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section">
+            <div class="container">
+                <header class="section-header">
+                    <h2>Tablas</h2>
+                    <p>Practica Tablas</p>
+                </header>
+
+                <div class="card">
+                    <div class="table-container">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Asignatura</th>
+                                    <th>Docente</th>
+                                    <th>Práctica</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Programación Web</td>
+                                    <td>Jovani del Boque Florentino</td>
+                                    <td>HTML y CSS</td>
+                                </tr>
+                                <tr>
+                                    <td>Base de Datos Avanzada</td>
+                                    <td>Gerardo Martinez Flores</td>
+                                    <td>Base de Datos</td>
+                                </tr>
+                                <tr>
+                                    <td>Ingles V</td>
+                                    <td>Valeria Alejanda Portillo Molina</td>
+                                    <td>Comunicación Oral y Escrita</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Universidad Politecnica de Atlacomulco Miguel Angel Madrigal Gonzalez ITI. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
